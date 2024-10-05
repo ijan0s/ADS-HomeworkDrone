@@ -6,7 +6,7 @@ class HelloWorld
     static void Main()
     {
         int numRepeat = 100; // Number of repetitions for each function to average timing
-        int max = 1000;     // Increase to 1000000 for larger runs
+        int max = 10000;     // Increase to 1000000 for larger runs
         int min = 100;       // Minimum number of drones
         int stepsize = 100;  // Step size for number of drones
         int numsteps = (max - min) / stepsize;
